@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+
+    <!--========== STYLE LINK ==========-->
+    <link rel="stylesheet" href="./assect/css/style.css" />
+
+    <title>pizza</title>
+  </head>
+  <body>
+    <!--========== HEADER ==========-->
+    <!-- <header class="l-header" id="header">
+      <nav class="nav bd-container">
+          <a href="#" class="nav__logo">Tasty</a>
+
+          <div class="nav__menu" id="nav-menu">
+              <ul class="nav__list">
+                  <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                  <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                  <li class="nav__item"><a href="#services" class="nav__link">Services</a></li>
+                  <li class="nav__item"><a href="#menu" class="nav__link">Menu</a></li>
+                  <li class="nav__item"><a href="#contact" class="nav__link">Contact us</a></li>
+
+                  <li><i class='bx bx-moon change-theme' id="theme-button"></i></li>
+              </ul>
+          </div>
+
+          <div class="nav__toggle" id="nav-toggle">
+              <i class='bx bx-menu'></i>
+          </div>
+      </nav>
+  </header> -->
+
+    <!--============ HEADER ==============-->
+    <header class="t-header" id="header">
+      <nav class="nav">
+        <div class="logo">
+          <a class="nav_logo" href="#">pizza bd</a>
+        </div>
+        <div class="nav_menu" id="nav-menu">
+          <ul class="nav_items">
+            <li class="nav_item">
+              <a class="nav_link" href="#home" onclick="toggleMobileMenu()"
+                >home</a
+              >
+            </li>
+            <li class="nav_item">
+              <a class="nav_link" href="#about" onclick="toggleMobileMenu()"
+                >about</a
+              >
+            </li>
+            <li class="nav_item">
+              <a class="nav_link" href="#top_sell" onclick="toggleMobileMenu()"
+                >top sell</a
+              >
+            </li>
+            <li class="nav_item">
+              <a class="nav_link" href="#service" onclick="toggleMobileMenu()"
+                >our service</a
+              >
+            </li>
+            <li class="nav_item">
+              <a class="nav_link" href="contuct" onclick="toggleMobileMenu()"
+                >contuct us</a
+              >
+            </li>
+
+            <li><i class="bx bx-moon change-theme" id="theme-button"></i></li>
+          </ul>
+        </div>
+        <div class="toggle" id="nav_toggle">
+          <i class="fas fa-bars" onclick="toggleMobileMenu()"></i>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="home-container gd-container display-flex" id="home">
+        <div class="home_text">
+          <h1>bangladesh pazzia</h1>
+          <h3>our best food qulity.</h3>
+          <button class="btn">view menu</button>
+        </div>
+        <div class="home_image">
+          <img src="./assect/images/home.png" alt="home" />
+        </div>
+      </section>
+    </main>
+    <script src="./assect/js/index.js"></script>
+  </body>
+</html>
